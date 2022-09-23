@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="bg-[#1C1C1C]">
+    <div class="container mx-auto w-5/6 flex justify-between items-center mt-8">
+       <div>
+        <h3 class="text-white text-2xl font-bold leading-normal">UIColorPicker</h3>
+       </div>
+       <div>
+        <h3 class="text-white text-2xl font-thin leading-normal">About LCO</h3>
+       </div>
+    </div>
+    <div class="container mx-auto w-5/6 mt-8">
+        <h2 class="text-center text-6xl font-bold leading-normal text-white">Click To Copy</h2>
+        <p class="text-center text-3xl font-thin leading-normal text-white mt-3">Always Perfect Color</p>
+    </div>
+    <div class="container mx-auto w-5/6 mt-8">
+        <h2 class="text-2xl font-normal text-white leading-normal">Feeling Red</h2>
+        
+    </div>
+    <div class="md:grid-cols-5 gap-4 grid container mx-auto w-5/6 grid-cols-2 mt-8">
+        <div class="">
+            <div id="cont1" class="rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover: duration-300 ..."></div>
+            <p id="para1" class="text-white font-bold mt-5">#FF6263</p>
+        </div>
+        <div>
+            <div id="cont2" class="rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover: duration-300 ..." onclick="red1()"></div>
+            <p id="para2" class="text-white font-bold mt-5">#DE4839</p>
+        </div>
+        <div>
+            <div id="cont3" class="rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover: duration-300 ..." onclick="red2()"></div>
+            <p id="para3" class="text-white font-bold mt-5">#BF3325</p>
+        </div>
+        <div>
+            <div id="cont4" class="rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover: duration-300 ..." onclick="red3()"></div>
+            <p id="para4" class="text-white font-bold mt-5">#E21717</p>
+        </div>
+        <div>
+            <div id="cont5" class="rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover: duration-300 ..." onclick="red4()"></div>
+            <p id="para5" class="text-white font-bold mt-5">#BF3312</p>
+        </div>
+        <!-- <div>
+            <div id="cont"></div>
+            <p id="para">#FF6263</p>
+        </div> -->
+    </div>
+
+    <script type="text/javascript" src="index.js">
+    </script>
+</body>
+</html>

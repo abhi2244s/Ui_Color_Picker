@@ -1,0 +1,61 @@
+body{
+    font-family: 'Montserrat';
+}
+#cont1{
+    background-color: #FF6263;
+    height: 250px;
+    width: 200px;
+    cursor: pointer;
+}
+#cont2{
+    background-color: #DE4839;
+    height: 250px;
+    width: 200px;
+    cursor: pointer;
+}
+#cont3{
+    background-color: #BF3325;
+    height: 250px;
+    width: 200px;
+    cursor: pointer;
+}
+#cont4{
+    background-color: #E21717;
+    height: 250px;
+    width: 200px;
+    cursor: pointer;
+}
+#cont5{
+    background-color: #BF3312;
+    height: 250px;
+    width: 200px;
+    cursor: pointer;
+}
+p{
+    -webkit-user-select: none;
+   -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+   -o-user-select: none;
+    user-select: none;
+}
+h3{
+    -webkit-user-select: none;
+   -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+   -o-user-select: none;
+    user-select: none;  
+}
+h2{
+    -webkit-user-select: none;
+   -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+   -o-user-select: none;
+    user-select: none;
+}
+/* .fa{
+    display: none;
+    
+} */
